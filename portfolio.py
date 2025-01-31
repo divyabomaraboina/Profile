@@ -107,7 +107,7 @@ st.markdown("""
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image(r"https://github.com/divyabomaraboina/Profile/blob/main/p1.jpg", width=300)
+    st.image(r"p1.jpg", width=300)
     st.markdown("""
     <div class="hover-zoom">
     <img src="https://via.placeholder.com/300" width="300" style="border-radius: 15px">
