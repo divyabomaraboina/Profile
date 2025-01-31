@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+from streamlit_pdf_viewer import pdf_viewer
 
 
 # --------------------------
@@ -122,14 +123,17 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
     
-    st.download_button(
-        label="📄 Download Full Resume",
-        data=base64.b64encode(open("Divya__Resume_Alt.pdf", "rb").read()),
-        file_name="Divya_Bomaraboina_Resume.pdf",
-        mime="application/octet-stream",
-        use_container_width=True,
-        key="resume-btn"
-    )
+# Display trigger button
+    if st.button("📄 View Full Resume", use_container_width=True, key="resume-btn"):
+        # Display PDF with viewer component
+        pdf_viewer(
+            input="Divya__Resume_Alt.pdf",  # or use open().read() for bytes
+            width=700,
+            height=1000,
+            rendering="legacy"  # Use "default" for annotation support
+            )
+
+    
     
 
 # --------------------------
