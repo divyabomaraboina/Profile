@@ -128,7 +128,7 @@ with open("Divya__Resume_Alt.pdf", "rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
     
 pdf_display = f'''
-<iframe src="data:application/pdf;base64,{base64_pdf}#toolbar=0" 
+<iframe src="https://drive.google.com/file/d/1s1JOf2JrfWRPSk6MmXifpWzQRGcNxQyo/view?usp=sharing";base64,{base64_pdf}#toolbar=0" 
         width="700" 
         height="1000" 
         style="border:none">
