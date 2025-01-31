@@ -124,7 +124,7 @@ with col2:
     
     st.download_button(
         label="📄 Download Full Resume",
-        data=base64.b64encode(open("https://github.com/divyabomaraboina/Profile/blob/main/Divya__Resume_Alt.pdf", "rb").read()),
+        data=base64.b64encode(open("Divya__Resume_Alt.pdf", "rb").read()),
         file_name="Divya_Bomaraboina_Resume.pdf",
         mime="application/octet-stream",
         use_container_width=True,
