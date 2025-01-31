@@ -124,14 +124,19 @@ with col2:
     """, unsafe_allow_html=True)
     
 # Display trigger button
-    if st.button("📄 View Full Resume", use_container_width=True, key="resume-btn"):
-        # Display PDF with viewer component
-        pdf_viewer(
-            input="Divya__Resume_Alt.pdf",  # or use open().read() for bytes
-            width=700,
-            height=1000,
-            rendering="legacy"  # Use "default" for annotation support
-            )
+with open("Divya__Resume_Alt.pdf", "rb") as f:
+    base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    
+pdf_display = f'''
+<iframe src="data:application/pdf;base64,{base64_pdf}#toolbar=0" 
+        width="700" 
+        height="1000" 
+        style="border:none">
+</iframe>
+'''
+
+if st.button("📄 View Full Resume"):
+    st.markdown(pdf_display, unsafe_allow_html=True)
 
     
     
