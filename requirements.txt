@@ -2,7 +2,7 @@ streamlit==1.41.1
 pandas==2.2.3
 langchain==0.3.17
 openai==1.60.2
-streamlit-pdf-viewer==0.7.0  # Add this line [1][4][6]
+streamlit-pdf-viewer==0.0.21  # Latest available version [2][5]
 numpy==1.26.4
 python-dateutil==2.9.0.post0
 typing-extensions==4.10.0
