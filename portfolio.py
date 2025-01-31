@@ -111,7 +111,7 @@ with col1:
     st.image(r"p1.jpg", width=300)
     st.markdown("""
     <div class="hover-zoom">
-    <img src="https://via.placeholder.com/300" width="300" style="border-radius: 15px">
+    <img src="https://www.bing.com/images/search?view=detailV2&ccid=Fxh9QVtw&id=9C6D8D0EAC6578997A0990391F5849CAFF460B09&thid=OIP.Fxh9QVtw1gwTC8CJJjX_FAHaHa&mediaurl=https%3a%2f%2fthumbs.dreamstime.com%2fb%2fpointing-down-below-hand-gesture-emoji-point-271859102.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.17187d415b70d60c130bc0892635ff14%3frik%3dCQtG%252f8pJWB85kA%26pid%3dImgRaw%26r%3d0&exph=800&expw=800&q=arrow+pointing+down+annimated+with+hand&simid=608032722907235067&FORM=IRPRST&ck=A5A8A2A1D7E9E71956BB1C2D5695829A&selectedIndex=19&itb=0" width="300" style="border-radius: 15px">
     </div>
     """, unsafe_allow_html=True)
 
