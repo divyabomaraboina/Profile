@@ -2,21 +2,7 @@ streamlit==1.41.1
 pandas==2.2.3
 langchain==0.3.17
 openai==1.60.2
-streamlit-pdf-viewer==0.7.0  # PDF viewer component [1][7]
-
-# PDF processing
-pypdf==4.2.0  # PDF text extraction [4]
-pdf2image==1.17.0  # PDF-to-image conversion [4]
-pillow==10.3.0  # Image processing [4]
-
-# Transitive dependencies (from deployment logs)
-rich==13.9.4  # Enhanced exception logging [Logs]
-markdown-it-py==3.0.0  # Markdown rendering [Logs]
-pygments==2.19.1  # Syntax highlighting [Logs]
-mdurl==0.1.2  # URL handling [Logs]
-
-# Compatibility
-numpy==1.26.4  # pandas dependency
-python-dateutil==2.9.0.post0  # Date handling
-typing-extensions==4.10.0  # Type hints support
-
+streamlit-pdf-viewer==0.7.0  # Add this line [1][4][6]
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+typing-extensions==4.10.0
