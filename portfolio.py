@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-python.exe -m pip install --upgrade pip
+
 
 # --------------------------
 # Page Configuration
