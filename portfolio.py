@@ -124,7 +124,7 @@ with col2:
     
     st.download_button(
         label="📄 Download Full Resume",
-        data=base64.b64encode(open("https://drive.google.com/file/d/1s1JOf2JrfWRPSk6MmXifpWzQRGcNxQyo/view?usp=drive_link", "rb").read()),
+        data=base64.b64encode(open("https://drive.google.com//file//d//1s1JOf2JrfWRPSk6MmXifpWzQRGcNxQyo//view?usp=drive_link", "rb").read()),
         file_name="Divya_Bomaraboina_Resume.pdf",
         mime="application/octet-stream",
         use_container_width=True,
