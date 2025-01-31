@@ -128,7 +128,7 @@ with open("Divya__Resume_Alt.pdf", "rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')
     
 pdf_display = f'''
-<iframe src="https://github.com/divyabomaraboina/Profile/blob/main/Divya__Resume_Alt.pdf";base64,{base64_pdf}#toolbar=0" 
+<iframe src="https://yellow-chloe-66.tiiny.site/";base64,{base64_pdf}#toolbar=0" 
         width="700" 
         height="1000" 
         style="border:none">
